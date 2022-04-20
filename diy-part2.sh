@@ -59,3 +59,4 @@ mkdir -p files/etc/hotplug.d/block && curl -fsSL https://raw.githubusercontent.c
 
 # 添加插件
 git clone https://github.com/sirpdboy/netspeedtest package/netspeedtest
+sed -i '$a src-git Aibx https://github.com/Aibx/OpenWRT-Packages' feeds.conf.default
